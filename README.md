@@ -1,3 +1,3 @@
-# Natours - Website for a tour operator.
+# Portfolio
 
-Check out the live site at: https://phuongha2012.github.io/Natours/ 
+Check out the live site at: https://phuongha2012.github.io/Portfolio/
