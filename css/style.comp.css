@@ -365,7 +365,7 @@ body {
     .card__picture--2 {
       background-image: url(../img/charlotte.png); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/nat-7.jpg); }
+      background-image: url(../img/oscar.png); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -397,6 +397,8 @@ body {
           border-bottom: 1px solid #eee; }
     .card__details--projects {
       margin-top: 7rem; }
+      .card__details--projects--1 {
+        margin-top: 10rem; }
   .card__cta {
     position: absolute;
     top: 50%;
