@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+        <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 
@@ -41,51 +42,32 @@
 
       <main>
         <section class="section-about">
-          <div class="u-center-text u-margin-bottom-big">
+          <div class="u-center-text u-margin-bottom-medium">
             <h2 class="heading-secondary">
               Hi, I'm Hayley
             </h2>
           </div>
           <div class="row">
-            <div class="col-1-of-2">
-              <h3 class="heading-tertiary u-margin-bottom-small">I'm a junior full-stack developer and a UX student at Yoobee School of Design</h3>
-              <p class="paragraph">I'm studying UX design at Yoobee School of Design while continue self-studying web stacks. I am confident working with Javascript, REST API, React/ Redux front-end framework on Node and Express.</p>
+            <div class="col-3-of-4 mx-auto">
+              <p class="paragraph">I came to New Zealand nearly 3 years ago to become a full-stack web developer. During my time here, I have finished Enspiral Dev Academy Program and a diploma in Web Development and UX Design from Yoobee School Of Design.</p>
+
+              <p class="paragraph">While tending to be shy and quiet in the crowd setting, friends and colleagues who worked with me know that I am kind, reliable, quietly ambitious and a self-starter.</p>
+
+              <p class="paragraph">I enjoy the flow that coding gets me into and the excitement of seeing ideas progress from scratch to become beautiful and functioning applications. The career in development fulfills me, as a curious person, as it offers me the opportunity to keep learning and applying new knowledge to solve real problems.</p>
+
 
               <h3 class="heading-tertiary u-margin-bottom-small"></h3>
-              <p class="paragraph">Outside of class, I am digging into C# and Object Oriented Programming.</p>
+              <h3 class="paragraph mb-5">I've been lucky to have worked as software development intern at:</h3>
 
-              <a href="#" class="btn-text">More about me &rarr;</a>
-            </div>
-            <div class="col-1-of-2">
-              <!-- emmet code .composition>(img.composition__photo.composition__photo-p1)*3 -->
-
-              <div class="composition">
-
-                <img srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w"
-                      sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
-                      alt="Photo 1"
-                      class="composition__photo composition__photo--p1"
-                      src="img/nat-1-large.jpg">
-
-                <img srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w"
-                      sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
-                      alt="Photo 2"
-                      class="composition__photo composition__photo--p2"
-                      src="img/nat-2-large.jpg">
-
-                <img srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w"
-                      sizes="(max-width: 56.25em) 30vw, (max-width: 37.5em) 30vw, 300px"
-                      alt="Photo 3"
-                      class="composition__photo composition__photo--p3"
-                      src="img/nat-3-large.jpg">
-
-
-
-                <!-- <img src="img/nat-1.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
-                <img src="img/nat-2.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
-                <img src="img/nat-3.jpg" alt="Photo 3" class="composition__photo composition__photo--p3"> -->
+              <div class="row pt-3">
+                <div class="col-2-of-4 mx-auto d-flex flex-row justify-content-around">
+                  <img src="img/acc.png" alt="ACC logo" height="40" width="auto"> 
+                  <img src="img/trademe.png" alt="ACC logo" height="40" width="auto"> 
+                </div>
               </div>
+
             </div>
+
           </div>
         </section>
 
@@ -93,45 +75,160 @@
 
 
           <div class="row">
-            <div class="col-1-of-4">
+            <div class="col-1-of-3">
               <div class="feature-box">
                 <i class="feature-box__icon icon-basic-world"></i>
-                <h3 class="heading-tertiary u-margin-bottom-small">REACT.JS/ ANGULAR.JS</h3>
-                <p class="feature-box__text">
-                  I have built 2 personal project using React.js on the front end and Node.js for backend.
-                </p>
+                <h3 class="heading-tertiary u-margin-bottom-small">Programming</h3>
+                <div class="card__details">
+                  <ul>
+                    <li>HTML5/ CSS3 (SASS)</li>
+                    <li>Javascript, JQuery</li>
+                    <li>C#</li>
+                    <li>React, Angular</li>
+                    <li>Express (Node.js)</li>
+                    <li>SQL, MongoDB</li>
+                  </ul>
+                </div>
               </div>
             </div>
 
-            <div class="col-1-of-4">
-              <div class="feature-box">
-                <i class="feature-box__icon icon-basic-compass"></i>
-                <h3 class="heading-tertiary u-margin-bottom-small">PHP/ C#</h3>
-                <p class="feature-box__text">
-                  I'm interested in OOP and is improving my knowledge on this field.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-1-of-4">
+            <div class="col-1-of-3">
               <div class="feature-box">
                 <i class="feature-box__icon icon-basic-map"></i>
-                <h3 class="heading-tertiary u-margin-bottom-small">Silverstripe/ Wordpress CMS</h3>
-                <p class="feature-box__text">
-                  During my first internship at ACC, I had a chance to work on Silverstripe CMS. On the other side, I'm confortable creating small websites with Wordpress.
-                </p>
+                <h3 class="heading-tertiary u-margin-bottom-small">Tools</h3>
+                <div class="card__details">
+                  <ul>
+                    <li>Git, Mercurial (Alpine)</li>
+                    <li>Grunt</li>
+                    <li>RestAPI</li>
+                    <li>CI/CD pipelines like:</li>
+                    <li>TeamCity</li>
+                    <li>AzureDevOps</li>
+                  </ul>
+                </div>
               </div>
             </div>
 
-            <div class="col-1-of-4">
+            <div class="col-1-of-3">
               <div class="feature-box">
                 <i class="feature-box__icon icon-basic-heart"></i>
-                <h3 class="heading-tertiary u-margin-bottom-small">UX/ Advanced CSS skill</h3>
-                <p class="feature-box__text">
-                  I can transfer design into real website using SCSS
-                </p>
+                <h3 class="heading-tertiary u-margin-bottom-small">User Experience Design</h3>
+                <div class="card__details">
+                  <ul>
+                    <li>Research</li>
+                    <li>Prototyping (UXPin)</li>
+                    <li>User Testing</li>
+                    <li>Responsive Design</li>
+                    <li>Cross-browsers Testing</li>
+                    <li>Illustrator/ Photoshop</li>
+                  </ul>
+                </div>
               </div>
             </div>
+          </div>
+        </section>
+
+        <section class="section-tours">
+          <div class="u-center-text u-margin-bottom-big">
+            <h2 class="heading-secondary">
+              Most popular  Natours
+            </h2>
+          </div>
+          <div class="row">
+            <div class="col-1-of-3">
+              <div class="card">
+                <div class="card__side card__side--front">
+                    <div class="card__picture card__picture--1">
+                      &nbsp;
+                    </div>
+                    <h4 class="card__heading">
+                      <span class="card__heading-span--1">The Sea Explorer</span>
+                    </h4>
+                    <div class="card__details">
+                      <ul>
+                        <li>3 day tours</li>
+                        <li>Up to 30 people</li>
+                        <li>2 tour guides</li>
+                        <li>Sleep in cozy hotels</li>
+                        <li>Difficulty: easy</li>
+                      </ul>
+                    </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-1">
+                    <div class="card__cta">
+                      <div class="card__price-box">
+                        <p class="card__price-only">Only</p>
+                        <p class="card__price-value">$297</p>
+                      </div>
+                      <a href="#popup" class="btn btn--white">Book now!</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-1-of-3">
+              <div class="card">
+                <div class="card__side card__side--front">
+                    <div class="card__picture card__picture--2">
+                      &nbsp;
+                    </div>
+                    <h4 class="card__heading">
+                      <span class="card__heading-span--2">The Forest Hiker</span>
+                    </h4>
+                    <div class="card__details">
+                    <ul>
+                      <li>7 day tours</li>
+                      <li>Up to 40 people</li>
+                      <li>6 tour guides</li>
+                      <li>Sleep in provided tents</li>
+                      <li>Difficulty: medium</li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-2">
+                    <div class="card__cta">
+                      <div class="card__price-box">
+                        <p class="card__price-only">Only</p>
+                        <p class="card__price-value">$497</p>
+                      </div>
+                      <a href="#popup" class="btn btn--white">Book now!</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-1-of-3">
+              <div class="card">
+                <div class="card__side card__side--front">
+                    <div class="card__picture card__picture--3">
+                      &nbsp;
+                    </div>
+                    <h4 class="card__heading">
+                      <span class="card__heading-span--3">The Snow Adventurer</span>
+                    </h4>
+                    <div class="card__details">
+                    <ul>
+                      <li>5 day tours</li>
+                      <li>Up to 15 people</li>
+                      <li>3 tour guides</li>
+                      <li>Sleep in provided tents</li>
+                      <li>Difficulty: hard</li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-3">
+                    <div class="card__cta">
+                      <div class="card__price-box">
+                        <p class="card__price-only">Only</p>
+                        <p class="card__price-value">$897</p>
+                      </div>
+                      <a href="#popup" class="btn btn--white">Book now!</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="u-center-text u-margin-top-huge">
+            <a href="#" class="btn btn--green">Discover all tours</a>
           </div>
         </section>
 
@@ -184,26 +281,6 @@
           </div>
         </div>
       </footer>
-      <div class="popup" id="popup">
-        <div class="popup__content">
-          <div class="popup__left">
-            <img src="img/nat-8.jpg" alt="tour photo" class="popup__img">
-            <img src="img/nat-9.jpg" alt="tour photo" class="popup__img">
-          </div>
-          <div class="popup__right">
-            <a href="#section-tours" class="popup__close">&times;</a>
-            <h2 class="heading-secondary u-margin-bottom-medium">Start booking now</h2>
-            <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before booking</h3>
-            <p class="popup__text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas accumsan. In mollis nunc sed id semper risus in. Nisi est sit amet facilisis magna. Amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus. Nulla at volutpat diam ut venenatis tellus in metus. Pulvinar sapien et ligula ullamcorper malesuada proin libero nunc. Dolor sit amet consectetur adipiscing elit. Orci a scelerisque purus semper. Aliquet porttitor lacus luctus accumsan tortor posuere ac. Tortor condimentum lacinia quis vel eros donec.
-            </p>
-            <a href="#" class="btn btn--green">Book now</a>
-          </div>
-        </div>
-      </div>
-
-
-
 
       <!--
       <section class="grid-test">
