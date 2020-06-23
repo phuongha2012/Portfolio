@@ -57,11 +57,11 @@
 
 
     &--1 {
-      background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url(../img/nat-5.jpg);
+      background-image: url(../img/bookish.png);
     }
 
     &--2 {
-      background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), url(../img/nat-3.jpg);
+      background-image: url(../img/charlotte.png);
     }
 
     &--3 {
@@ -74,9 +74,9 @@
     font-weight: 300;
     text-transform: uppercase;
     text-align: right;
-    color: $color-white;
+    // color: $color-white;
     position: absolute;
-    top: 12rem;
+    top: 23rem;
     right: 2rem;
     width: 65%;
   }
@@ -87,9 +87,10 @@
     box-decoration-break: clone;
 
     &--1 {
-      background-image: linear-gradient(to right bottom,
-      rgba($color-secondary-light, .85),
-      rgba($color-secondary-dark, .85));
+      // background-image: linear-gradient(to right bottom,
+      // rgba($color-tertiary-light, .85),
+      // rgba($color-tertiary-dark, .85));
+
     }
 
     &--2 {
@@ -106,6 +107,7 @@
   }
 
   &__details {
+    margin-top: 2rem;
 
     ul {
       list-style: none;
@@ -122,6 +124,10 @@
         }
       }
     }
+
+    &--projects {
+      margin-top: 7rem;
+    }
   }
 
   //FRONT SIDE STYLING
@@ -131,13 +137,17 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
-    text-align: center;
   }
 
   &__price-box {
-    text-align: center;
+    font-size: 1.7rem;
     color: $color-white;
     margin-bottom: 8rem;
+
+    & > p {
+      padding-left: 2rem;
+      padding-right: 1.5rem;
+    }
   }
 
   &__price-only {

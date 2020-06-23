@@ -303,10 +303,12 @@ body {
   text-align: center;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(23, 41, 47, 0.15);
-  transition: all .3s; }
+  transition: all .3s;
+  min-height: 407px; }
   @media (max-width: 56.25em) {
     .feature-box {
-      padding: 2rem; } }
+      padding: 2rem;
+      min-height: 333px; } }
   .feature-box__icon {
     font-size: 6rem;
     margin-bottom: .5rem;
@@ -359,9 +361,9 @@ body {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/nat-5.jpg); }
+      background-image: url(../img/bookish.png); }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, #fedb34, #ffae05), url(../img/nat-3.jpg); }
+      background-image: url(../img/charlotte.png); }
     .card__picture--3 {
       background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/nat-7.jpg); }
   .card__heading {
@@ -369,42 +371,45 @@ body {
     font-weight: 300;
     text-transform: uppercase;
     text-align: right;
-    color: #fff;
     position: absolute;
-    top: 12rem;
+    top: 23rem;
     right: 2rem;
     width: 65%; }
   .card__heading-span {
     padding: 1.5rem 2rem;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone; }
-    .card__heading-span--1 {
-      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
     .card__heading-span--2 {
       background-image: linear-gradient(to right bottom, rgba(254, 219, 52, 0.85), rgba(255, 174, 5, 0.85)); }
     .card__heading-span--3 {
       background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
-  .card__details ul {
-    list-style: none;
-    width: 80%;
-    margin: 0 auto; }
-    .card__details ul li {
-      text-align: center;
-      font-size: 1.5rem;
-      padding: 1rem; }
-      .card__details ul li:not(:last-child) {
-        border-bottom: 1px solid #eee; }
+  .card__details {
+    margin-top: 2rem; }
+    .card__details ul {
+      list-style: none;
+      width: 80%;
+      margin: 0 auto; }
+      .card__details ul li {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem; }
+        .card__details ul li:not(:last-child) {
+          border-bottom: 1px solid #eee; }
+    .card__details--projects {
+      margin-top: 7rem; }
   .card__cta {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 90%;
-    text-align: center; }
+    width: 90%; }
   .card__price-box {
-    text-align: center;
+    font-size: 1.7rem;
     color: #fff;
     margin-bottom: 8rem; }
+    .card__price-box > p {
+      padding-left: 2rem;
+      padding-right: 1.5rem; }
   .card__price-only {
     font-size: 1.4rem;
     text-transform: uppercase; }

@@ -6,9 +6,11 @@
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
   transition: all .3s;
+  min-height: 407px;
 
   @include respond(tab-port) {
     padding: 2rem;
+    min-height: 333px;
   }
 
   &__icon {
