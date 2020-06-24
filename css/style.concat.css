@@ -571,6 +571,9 @@ body {
   font-size: 1.8rem;
   font-weight: 600;
   text-transform: uppercase; }
+  .heading-tertiary--noCap {
+    font-weight: 500;
+    text-transform: none; }
 
 .paragraph {
   font-size: 1.8rem; }
@@ -956,20 +959,6 @@ body {
     transform: translateX(-4rem) scale(1);
     filter: blur(3px) brightness(80%); }
 
-.bg-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  opacity: .15;
-  overflow: hidden; }
-  .bg-video__content {
-    height: 100%;
-    width: 100%;
-    object-fit: cover; }
-
 .form__group:not(:last-child) {
   margin-bottom: 2rem; }
 
@@ -1153,7 +1142,7 @@ body {
 
 .footer {
   background-color: #17292f;
-  padding: 10rem 0;
+  padding: 3rem 0;
   font-size: 1.4rem; }
   @media (max-width: 56.25em) {
     .footer {
@@ -1411,7 +1400,8 @@ body {
   background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
   background-size: 100%;
   border-radius: 3px;
-  box-shadow: 0 1.5rem 4rem rgba(23, 41, 47, 0.2); }
+  box-shadow: 0 1.5rem 4rem rgba(23, 41, 47, 0.2);
+  width: 100%; }
   @media (max-width: 75em) {
     .book {
       background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../img/nat-10.jpg);

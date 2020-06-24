@@ -79,6 +79,11 @@ body {
   font-size: $default-font-size;
   font-weight: 600;
   text-transform: uppercase;
+
+  &--noCap {
+    font-weight: 500;
+    text-transform: none;
+  }
 }
 
 .paragraph {
