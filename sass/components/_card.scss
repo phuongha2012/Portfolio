@@ -48,7 +48,7 @@
 
   &__picture {
     background-size: cover;
-    height: 23rem;
+    height: 29rem;
     background-blend-mode: screen;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
@@ -57,15 +57,19 @@
 
 
     &--1 {
-      background-image: url(../img/bookish.png);
+      background-image: url(../img/eventgoers.png);
     }
 
     &--2 {
-      background-image: url(../img/charlotte.png);
+      background-image: url(../img/catalyst.png);
     }
 
     &--3 {
-      background-image: url(../img/oscar.png);
+      background-image: url(../img/bookish.png);
+    }
+
+    &--4 {
+      background-image: url(../img/charlotte.png);
     }
   }
 
@@ -76,7 +80,7 @@
     text-align: right;
     // color: $color-white;
     position: absolute;
-    top: 23rem;
+    // top: 23rem;
     right: 2rem;
     width: 65%;
   }
@@ -126,11 +130,7 @@
     }
 
     &--projects {
-      margin-top: 7rem;
-
-      &--1 {
-        margin-top: 10rem;
-      }
+      margin-top: 6rem;
     }
   }
 

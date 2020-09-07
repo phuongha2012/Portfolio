@@ -11,7 +11,7 @@
         <title>Hayley | Web Developer</title>
     </head>
     <body>
-      <div class="navigation">
+      <!-- <div class="navigation">
         <input class="navigation__checkbox" type="checkbox" id="navi-toggle">
           <label for="navi-toggle" class="navigation__button">
             <span class="navigation__icon">&nbsp;</span>
@@ -20,14 +20,14 @@
 
           <nav class="navigation__nav">
             <ul class="navigation__list">
-              <li class="navigation__item"><a href="#" class="navigation__link">Home</a></li>
-              <li class="navigation__item"><a href="#" class="navigation__link">About Me</a></li>
-              <li class="navigation__item"><a href="#" class="navigation__link">My Skills</a></li>
-              <li class="navigation__item"><a href="#" class="navigation__link">My Projects</a></li>
-              <li class="navigation__item"><a href="#" class="navigation__link">Contact Me</a></a></li>
+              <li class="navigation__item"><a href="#aboutme" class="navigation__link">Home</a></li>
+              <li class="navigation__item"><a href="#aboutme" class="navigation__link">About Me</a></li>
+              <li class="navigation__item"><a href="#skills" class="navigation__link">My Skills</a></li>
+              <li class="navigation__item"><a href="#projects" class="navigation__link">My Projects</a></li>
+              <li class="navigation__item"><a href="#contact" class="navigation__link">Contact Me</a></a></li>
             </ul>
           </nav>
-      </div>
+      </div> -->
       <header class="header">
 
         <div class="header__text-box">
@@ -36,12 +36,12 @@
             <span class="heading-primary--sub">Web Developer</span>
           </h1>
 
-          <a href="https://github.com/phuongha2012" class="btn btn--white btn--animated">See my projects</a>
+          <a href="#projects" class="btn btn--white btn--animated">See my projects</a>
         </div>
       </header>
 
       <main>
-        <section class="section-about">
+        <section id="aboutme" class="section-about">
           <div class="u-center-text u-margin-bottom-medium">
             <h2 class="heading-secondary">
               Hi, I'm Hayley
@@ -51,7 +51,7 @@
             <div class="col-3-of-4 mx-auto">
               <p class="paragraph">I came to New Zealand nearly 3 years ago to become a full-stack web developer. During my time here, I have finished Enspiral Dev Academy Program and a diploma in Web Development and UX Design from Yoobee School Of Design.</p>
 
-              <p class="paragraph">While tending to be shy and quiet in the crowd setting, friends and colleagues who worked with me know that I am kind, reliable, quietly ambitious and a self-starter.</p>
+              <!-- <p class="paragraph">While tending to be shy and quiet in the crowd setting, friends and colleagues who worked with me know that I am kind, reliable, quietly ambitious and a self-starter.</p> -->
 
               <p class="paragraph">I enjoy the flow that coding gets me into and the excitement of seeing ideas grow from scratch and evolve into beautiful and functioning applications. A career in development fulfills me as a curious person. It gives me the opportunity to keep learning and apply new knowledge towards solving real world problems.</p>
 
@@ -71,19 +71,19 @@
           </div>
         </section>
 
-        <section class="section-features">
+        <section id="skills" class="section-features">
 
 
           <div class="row">
-            <div class="col-1-of-3">
+            <div class="col-1-of-2">
               <div class="feature-box">
                 <h3 class="heading-tertiary u-margin-bottom-small">Programming</h3>
                 <div class="card__details">
                   <ul>
                     <li>HTML5/ CSS3 (SASS)</li>
                     <li>Javascript, JQuery, Typescript</li>
-                    <li>C#</li>
-                    <li>React, Angular</li>
+                    <li>React</li>
+                    <li>C#, ASP.NET Core</li>
                     <li>Express (Node.js)</li>
                     <li>SQL, MongoDB</li>
                     <li>PHP, WordPress CMS</li>
@@ -92,7 +92,7 @@
               </div>
             </div>
 
-            <div class="col-1-of-3">
+            <div class="col-1-of-2">
               <div class="feature-box">
                 <h3 class="heading-tertiary u-margin-bottom-small">Tools</h3>
                 <div class="card__details">
@@ -102,13 +102,14 @@
                     <li>RestAPI</li>
                     <li>CI/CD pipelines like:</li>
                     <li>TeamCity</li>
-                    <li>AzureDevOps</li>
+                    <li>Deploying to:</li>
+                    <li>Heroku, DigitalOcean</li>
                   </ul>
                 </div>
               </div>
             </div>
 
-            <div class="col-1-of-3">
+            <!-- <div class="col-1-of-3">
               <div class="feature-box">
                 <h3 class="heading-tertiary u-margin-bottom-small">User Experience Design</h3>
                 <div class="card__details">
@@ -123,20 +124,85 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         </section>
 
-        <section class="section-tours">
+        <section id="projects" class="section-tours">
           <div class="u-center-text u-margin-bottom-big">
             <h2 class="heading-secondary">
               My Projects
             </h2>
+            <p>An EventBrite-inspired website where users can keep updated on interesting upcoming events and mark their attendance on those. Event organisers are able to create events and see who are in, too.</p>
           </div>
           <div class="row">
-            <div class="col-1-of-3">
+            <div class="col-1-of-2">
               <div class="card">
                 <div class="card__side card__side--front">
                     <div class="card__picture card__picture--1">
+                      &nbsp;
+                    </div>
+                    <h4 class="card__heading">
+                      <span class="card__heading-span--1">Event Goers App</span>
+                    </h4>
+                    <div class="card__details card__details--projects">
+                      <ul>
+                        <li>Tutorial Project/ Full-stack app</li>
+                        <li>Tech stacks: React, ASP.NET Core, MySQL</li>
+                        <li>3rd-party API: Cloudinary (image storage)</li>
+                      </ul>
+                    </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-1">
+                    <div class="card__cta">
+                      <div class="card__price-box">
+                        <p>An EventBrite-inspired website where users can keep updated on interesting upcoming events and mark their attendance on those. Event organisers are able to create events and see who are in, too.</p>
+                        <p> Users can create events, browse, attend or cancel their attendance on an event as well as manage their personal accounts.</p>
+                      </div>
+                      <div class="d-flex flex-row justify-content-around">
+                        <a href="http://128.199.236.253/" class="btn btn--white">Live Site</a>
+                        <a href="https://github.com/phuongha2012/event-goers-app" class="btn btn--white">Code</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-1-of-2">
+              <div class="card">
+                <div class="card__side card__side--front">
+                    <div class="card__picture card__picture--2">
+                      &nbsp;
+                    </div>
+                    <h4 class="card__heading">
+                      <span class="card__heading-span--1">Catalyst App</span>
+                    </h4>
+                    <div class="card__details card__details--projects">
+                      <ul>
+                        <li>Volunteer Project/ Full stack app</li>
+                        <li>Tech stacks: React, Express, MongoDB</li>
+                        <li>3rd-party API: Multer, Cloudinary (image upload & storage)</li>
+                      </ul>
+                    </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-1">
+                    <div class="card__cta">
+                      <div class="card__price-box">
+                        <p>An exhibition site created for recent graduating classes at my college to be a platform to display student's works and connect employers with the graduates. This was a team project with 4 volunteer designers and developers in the school and I was one of the two developers.</p>
+                        <p>Graduates are able to register, enter their details that they would like shared with employers, and then upload any projects they wish to be seen.</p>
+                      </div>
+                      <div class="d-flex flex-row justify-content-around">
+                        <a href="https://yoobee-catalyst.herokuapp.com/" class="btn btn--white">Live Site</a>
+                        <a href="https://github.com/phuongha2012/yoobee-graduates-site" class="btn btn--white">Code</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-1-of-2">
+              <div class="card">
+                <div class="card__side card__side--front">
+                    <div class="card__picture card__picture--3">
                       &nbsp;
                     </div>
                     <h4 class="card__heading">
@@ -145,8 +211,8 @@
                     <div class="card__details card__details--projects">
                       <ul>
                         <li>Passion Project/ Full-stack app</li>
-                        <li>Techonologies used:</li>
-                        <li>Javascript, JQuery, MongoDB, SCSS, Multer (for image upload), Stripe API (for online payment)</li>
+                        <li>Tech stacks: Javascript, JQuery, MongoDB, SCSS</li>
+                        <li>3rd-party API: Multer (image upload), Stripe (online payment)</li>
                       </ul>
                     </div>
                 </div>
@@ -154,9 +220,9 @@
                     <div class="card__cta">
                       <div class="card__price-box">
                         <p>A platform to buy and resell used books where users can either be a buyer or seller.</p>
-                        <p> Users can browse, add to a watchlist, manage their accounts, and buy books with online payment powered by Stripe. This project is still ongoing as I plan to have a better book filter on the homepage and get the app optimised for different breakpoints.</p>
+                        <p> Users can browse, add to a watchlist, manage their accounts, and buy books with online payment powered by Stripe.</p>
                       </div>
-                      <div class="d-flex flex-row justify-content-between">
+                      <div class="d-flex flex-row justify-content-around">
                         <a href="http://https://bookish-platform.herokuapp.com/" class="btn btn--white">Live Site</a>
                         <a href="https://github.com/phuongha2012/bookish" class="btn btn--white">Code</a>
                       </div>
@@ -164,20 +230,19 @@
                 </div>
               </div>
             </div>
-            <div class="col-1-of-3">
+            <div class="col-1-of-2">
               <div class="card">
                 <div class="card__side card__side--front">
-                    <div class="card__picture card__picture--2">
+                    <div class="card__picture card__picture--4">
                       &nbsp;
                     </div>
                     <h4 class="card__heading">
-                      <span class="card__heading-span--1">Charlotte's Shoes Store</span>
+                      <span class="card__heading-span--1">Shop filter</span>
                     </h4>
                     <div class="card__details card__details--projects card__details--projects--1">
                       <ul>
-                        <li>Passion Project/ Javascript</li>
-                        <li>Techonologies used:</li>
-                        <li>Javascript</li>
+                        <li>Javascript Practice</li>
+                        <li>Tech stack: Javascript</li>
                       </ul>
                     </div>
                 </div>
@@ -186,7 +251,7 @@
                       <div class="card__price-box">
                         <p>A small interactive object filter project in which the page instantly updates search result upon user’s ongoing selection.</p>
                       </div>
-                      <div class="d-flex flex-row justify-content-between">
+                      <div class="d-flex flex-row justify-content-around">
                         <a href="https://phuongha2012.github.io/js-object-filter/" class="btn btn--white">Live Site</a>
                         <a href="https://github.com/phuongha2012/js-object-filter" class="btn btn--white">Code</a>
                       </div>
@@ -194,7 +259,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-1-of-3">
+            <!-- <div class="col-1-of-3">
               <div class="card">
                 <div class="card__side card__side--front">
                     <div class="card__picture card__picture--3">
@@ -217,18 +282,18 @@
                         <p>A Yoobee assignment to create a website for my chosen client: Oscar House Out Of School Care.</p>
                         <p>The website uses its own theme created from scratch by me, powered by Wordpress CMS in which the site's content editor can create/ manage contents easily, including Woocommerce shop and payment features.</p>
                       </div>
-                      <div class="d-flex flex-row justify-content-between">
+                      <div class="d-flex flex-row justify-content-around">
                         <a href="https://oscarhouse-nz.site" class="btn btn--white">Live Site</a>
                         <a href="https://github.com/phuongha2012/wordpress-custom-theme" class="btn btn--white">Code</a>
                       </div>
                     </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </section>
 
-        <section class="section-book">
+        <section id="contact" class="section-book">
           <div class="row">
             <div class="book">
               <div class="book__form text-center">
